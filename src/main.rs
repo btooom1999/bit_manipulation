@@ -1,13 +1,7 @@
-pub fn single_number(nums: Vec<i32>) -> i32 {
-    let mut res = 0;
-    for num in nums {
-        res ^= num;
-    }
+#![allow(unused)]
 
-    res
-}
+mod single_number;
 
 pub fn main() {
-    let nums = [4,1,2,1,2];
-    println!("{}", single_number(nums.into()));
+    single_number::main();
 }

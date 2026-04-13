@@ -1,7 +1,8 @@
 #![allow(unused)]
 
 mod single_number;
+mod number_of_1_bits;
 
 pub fn main() {
-    single_number::main();
+    number_of_1_bits::main();
 }

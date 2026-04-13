@@ -2,7 +2,8 @@
 
 mod single_number;
 mod number_of_1_bits;
+mod add_binary;
 
 pub fn main() {
-    number_of_1_bits::main();
+    add_binary::main();
 }

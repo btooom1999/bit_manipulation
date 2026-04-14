@@ -15,7 +15,8 @@ mod find_the_xor_of_numbers_which_appear_twice;
 mod number_complement;
 mod complement_of_base_10_integer;
 mod binary_number_with_alternating_bits;
+mod binary_prefix_divisible_by_5;
 
 pub fn main() {
-    binary_number_with_alternating_bits::main();
+    binary_prefix_divisible_by_5::main();
 }

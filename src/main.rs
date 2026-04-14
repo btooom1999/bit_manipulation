@@ -11,7 +11,8 @@ mod find_the_difference;
 mod power_of_two;
 mod counting_bits;
 mod shuffle_the_array;
+mod find_the_xor_of_numbers_which_appear_twice;
 
 pub fn main() {
-    shuffle_the_array::main();
+    find_the_xor_of_numbers_which_appear_twice::main();
 }

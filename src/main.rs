@@ -12,7 +12,9 @@ mod power_of_two;
 mod counting_bits;
 mod shuffle_the_array;
 mod find_the_xor_of_numbers_which_appear_twice;
+mod number_complement;
+mod complement_of_base_10_integer;
 
 pub fn main() {
-    find_the_xor_of_numbers_which_appear_twice::main();
+    complement_of_base_10_integer::main();
 }

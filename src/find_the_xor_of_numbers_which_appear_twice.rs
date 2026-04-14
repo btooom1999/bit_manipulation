@@ -9,7 +9,6 @@ fn duplicate_numbers_xor(nums: Vec<i32>) -> i32 {
         }
     }
 
-    println!("{}", 1 | 2);
     res
 }
 

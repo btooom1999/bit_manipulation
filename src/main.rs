@@ -17,7 +17,8 @@ mod complement_of_base_10_integer;
 mod binary_number_with_alternating_bits;
 mod binary_prefix_divisible_by_5;
 mod number_of_steps_to_reduce_a_number_to_zero;
+mod sort_integers_by_the_number_of_1_bits;
 
 pub fn main() {
-    number_of_steps_to_reduce_a_number_to_zero::main();
+    sort_integers_by_the_number_of_1_bits::main();
 }

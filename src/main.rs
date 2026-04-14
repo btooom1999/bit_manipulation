@@ -14,7 +14,8 @@ mod shuffle_the_array;
 mod find_the_xor_of_numbers_which_appear_twice;
 mod number_complement;
 mod complement_of_base_10_integer;
+mod binary_number_with_alternating_bits;
 
 pub fn main() {
-    complement_of_base_10_integer::main();
+    binary_number_with_alternating_bits::main();
 }

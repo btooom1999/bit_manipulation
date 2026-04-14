@@ -9,7 +9,8 @@ mod reverse_bits;
 mod missing_number;
 mod find_the_difference;
 mod power_of_two;
+mod counting_bits;
 
 pub fn main() {
-    power_of_two::main();
+    counting_bits::main();
 }

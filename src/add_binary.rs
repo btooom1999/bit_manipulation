@@ -7,7 +7,7 @@ fn add_binary(a: String, b: String) -> String {
         let a = (a.pop().unwrap_or(b'0') - b'0') as i32;
         let b = (b.pop().unwrap_or(b'0') - b'0') as i32;
 
-        vec.push((a ^ b ^ excess) as u8 + b'0');
+        vec.push((a^b^excess) as u8 + b'0');
         excess = (a+b+excess)/2;
     }
 

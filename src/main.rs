@@ -10,7 +10,8 @@ mod missing_number;
 mod find_the_difference;
 mod power_of_two;
 mod counting_bits;
+mod shuffle_the_array;
 
 pub fn main() {
-    counting_bits::main();
+    shuffle_the_array::main();
 }

@@ -3,6 +3,6 @@ fn is_power_of_two(n: i32) -> bool {
 }
 
 pub fn main() {
-    let n = 1;
+    let n = 16;
     println!("{}", is_power_of_two(n));
 }

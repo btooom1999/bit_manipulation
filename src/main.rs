@@ -22,7 +22,8 @@ mod xor_operation_in_an_array;
 mod decode_xored_array;
 mod first_letter_to_appear_twice;
 mod count_pairs_of_similar_strings;
+mod number_of_even_and_odd_bits;
 
 pub fn main() {
-    count_pairs_of_similar_strings::main();
+    number_of_even_and_odd_bits::main();
 }

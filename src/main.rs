@@ -18,7 +18,8 @@ mod binary_number_with_alternating_bits;
 mod binary_prefix_divisible_by_5;
 mod number_of_steps_to_reduce_a_number_to_zero;
 mod sort_integers_by_the_number_of_1_bits;
+mod xor_operation_in_an_array;
 
 pub fn main() {
-    sort_integers_by_the_number_of_1_bits::main();
+    xor_operation_in_an_array::main();
 }

@@ -1,12 +1,12 @@
 fn find_the_difference(mut s: String, mut t: String) -> char {
-    let mut char = 0;
+    let mut res = 0;
     while !s.is_empty() || !t.is_empty() {
         let a = s.pop().map_or(0, |v| v as u8);
         let b = t.pop().map_or(0, |v| v as u8);
-        char ^= a ^ b;
+        res ^= a ^ b;
     }
 
-    char as char
+    res as char
 }
 
 pub fn main() {

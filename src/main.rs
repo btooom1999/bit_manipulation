@@ -8,7 +8,8 @@ mod hamming_distance;
 mod reverse_bits;
 mod missing_number;
 mod find_the_difference;
+mod power_of_two;
 
 pub fn main() {
-    find_the_difference::main();
+    power_of_two::main();
 }

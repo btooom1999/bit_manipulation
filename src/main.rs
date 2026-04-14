@@ -21,7 +21,8 @@ mod sort_integers_by_the_number_of_1_bits;
 mod xor_operation_in_an_array;
 mod decode_xored_array;
 mod first_letter_to_appear_twice;
+mod count_pairs_of_similar_strings;
 
 pub fn main() {
-    first_letter_to_appear_twice::main();
+    count_pairs_of_similar_strings::main();
 }

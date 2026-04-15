@@ -31,7 +31,8 @@ mod binary_gap;
 mod two_out_of_three;
 mod find_the_k_or_of_an_array;
 mod maximum_strong_pair_xor_1;
+mod check_if_bitwise_or_has_trailing_zeroes;
 
 pub fn main() {
-    maximum_strong_pair_xor_1::main();
+    check_if_bitwise_or_has_trailing_zeroes::main();
 }

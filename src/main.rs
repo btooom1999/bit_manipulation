@@ -28,7 +28,8 @@ mod minimum_operations_to_collect_elements;
 mod prime_number_of_set_bits_in_binary_representation;
 mod flipping_an_image;
 mod binary_gap;
+mod two_out_of_three;
 
 pub fn main() {
-    binary_gap::main();
+    two_out_of_three::main();
 }

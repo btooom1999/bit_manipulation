@@ -27,7 +27,8 @@ mod sum_of_values_at_indices_with_k_set_bits;
 mod minimum_operations_to_collect_elements;
 mod prime_number_of_set_bits_in_binary_representation;
 mod flipping_an_image;
+mod binary_gap;
 
 pub fn main() {
-    flipping_an_image::main();
+    binary_gap::main();
 }

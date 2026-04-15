@@ -33,7 +33,8 @@ mod find_the_k_or_of_an_array;
 mod maximum_strong_pair_xor_1;
 mod check_if_bitwise_or_has_trailing_zeroes;
 mod shortest_subarray_with_or_at_least_k_1;
+mod number_of_bit_changes_to_make_two_integers_equal;
 
 pub fn main() {
-    shortest_subarray_with_or_at_least_k_1::main();
+    number_of_bit_changes_to_make_two_integers_equal::main();
 }

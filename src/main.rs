@@ -26,7 +26,8 @@ mod number_of_even_and_odd_bits;
 mod sum_of_values_at_indices_with_k_set_bits;
 mod minimum_operations_to_collect_elements;
 mod prime_number_of_set_bits_in_binary_representation;
+mod flipping_an_image;
 
 pub fn main() {
-    prime_number_of_set_bits_in_binary_representation::main();
+    flipping_an_image::main();
 }

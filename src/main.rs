@@ -1,6 +1,5 @@
 #![allow(unused)]
 
-mod single_number;
 mod number_of_1_bits;
 mod add_binary;
 mod minimum_bit_flips_to_convert_number;
@@ -36,7 +35,10 @@ mod shortest_subarray_with_or_at_least_k_1;
 mod number_of_bit_changes_to_make_two_integers_equal;
 mod construct_the_minimum_bitwise_array_1;
 mod smallest_number_with_all_set_bits;
+mod single_number;
+mod single_number_2;
+mod single_number_3;
 
 pub fn main() {
-    smallest_number_with_all_set_bits::main();
+    single_number_2::main();
 }

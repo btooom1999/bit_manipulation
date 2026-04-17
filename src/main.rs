@@ -31,7 +31,6 @@ mod two_out_of_three;
 mod find_the_k_or_of_an_array;
 mod maximum_strong_pair_xor_1;
 mod check_if_bitwise_or_has_trailing_zeroes;
-mod shortest_subarray_with_or_at_least_k_1;
 mod number_of_bit_changes_to_make_two_integers_equal;
 mod construct_the_minimum_bitwise_array_1;
 mod smallest_number_with_all_set_bits;
@@ -43,7 +42,9 @@ mod largest_combination_with_bitwise_and_greater_than_zero;
 mod xor_queries_of_a_subarray;
 mod maximum_xor_for_each_query;
 mod neighboring_bitwise_xor;
+mod shortest_subarray_with_or_at_least_k_1;
+mod shortest_subarray_with_or_at_least_k_2;
 
 pub fn main() {
-    neighboring_bitwise_xor::main();
+    shortest_subarray_with_or_at_least_k_2::main();
 }

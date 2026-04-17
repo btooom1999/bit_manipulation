@@ -38,7 +38,8 @@ mod smallest_number_with_all_set_bits;
 mod single_number;
 mod single_number_2;
 mod single_number_3;
+mod bitwise_xor_of_all_pairings;
 
 pub fn main() {
-    single_number_3::main();
+    bitwise_xor_of_all_pairings::main();
 }

@@ -42,7 +42,8 @@ mod bitwise_xor_of_all_pairings;
 mod largest_combination_with_bitwise_and_greater_than_zero;
 mod xor_queries_of_a_subarray;
 mod maximum_xor_for_each_query;
+mod neighboring_bitwise_xor;
 
 pub fn main() {
-    maximum_xor_for_each_query::main();
+    neighboring_bitwise_xor::main();
 }

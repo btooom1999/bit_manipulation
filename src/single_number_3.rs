@@ -13,9 +13,9 @@ fn single_number(nums: Vec<i32>) -> Vec<i32> {
     let mut b = 0;
     for num in nums {
         if num & diff != 0 {
-            a = num;
+            a ^= num;
         } else {
-            b = num;
+            b ^= num;
         }
     }
 

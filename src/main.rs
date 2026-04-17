@@ -40,5 +40,5 @@ mod single_number_2;
 mod single_number_3;
 
 pub fn main() {
-    single_number_2::main();
+    single_number_3::main();
 }

@@ -40,7 +40,8 @@ mod single_number_2;
 mod single_number_3;
 mod bitwise_xor_of_all_pairings;
 mod largest_combination_with_bitwise_and_greater_than_zero;
+mod xor_queries_of_a_subarray;
 
 pub fn main() {
-    largest_combination_with_bitwise_and_greater_than_zero::main();
+    xor_queries_of_a_subarray::main();
 }

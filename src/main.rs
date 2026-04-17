@@ -39,7 +39,8 @@ mod single_number;
 mod single_number_2;
 mod single_number_3;
 mod bitwise_xor_of_all_pairings;
+mod largest_combination_with_bitwise_and_greater_than_zero;
 
 pub fn main() {
-    bitwise_xor_of_all_pairings::main();
+    largest_combination_with_bitwise_and_greater_than_zero::main();
 }

@@ -51,7 +51,8 @@ mod minimize_xor;
 mod count_triplets_that_can_form_two_arrays_of_equal_xor;
 mod reverse_integer;
 mod bitwise_and_of_numbers_range;
+mod maximum_product_of_word_lengths;
 
 pub fn main() {
-    bitwise_and_of_numbers_range::main();
+    maximum_product_of_word_lengths::main();
 }

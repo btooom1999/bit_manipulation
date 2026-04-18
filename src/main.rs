@@ -44,7 +44,8 @@ mod maximum_xor_for_each_query;
 mod neighboring_bitwise_xor;
 mod shortest_subarray_with_or_at_least_k_1;
 mod shortest_subarray_with_or_at_least_k_2;
+mod sum_of_two_integers;
 
 pub fn main() {
-    shortest_subarray_with_or_at_least_k_2::main();
+    sum_of_two_integers::main();
 }

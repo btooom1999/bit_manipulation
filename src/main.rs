@@ -50,7 +50,8 @@ mod find_the_longest_substring_containing_vowels_in_even_counts;
 mod minimize_xor;
 mod count_triplets_that_can_form_two_arrays_of_equal_xor;
 mod reverse_integer;
+mod bitwise_and_of_numbers_range;
 
 pub fn main() {
-    reverse_integer::main();
+    bitwise_and_of_numbers_range::main();
 }

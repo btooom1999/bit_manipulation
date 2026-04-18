@@ -47,7 +47,8 @@ mod shortest_subarray_with_or_at_least_k_2;
 mod sum_of_two_integers;
 mod longest_nice_subarray;
 mod find_the_longest_substring_containing_vowels_in_even_counts;
+mod minimize_xor;
 
 pub fn main() {
-    find_the_longest_substring_containing_vowels_in_even_counts::main();
+    minimize_xor::main();
 }

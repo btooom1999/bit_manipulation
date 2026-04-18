@@ -48,7 +48,9 @@ mod sum_of_two_integers;
 mod longest_nice_subarray;
 mod find_the_longest_substring_containing_vowels_in_even_counts;
 mod minimize_xor;
+mod count_triplets_that_can_form_two_arrays_of_equal_xor;
+mod reverse_integer;
 
 pub fn main() {
-    minimize_xor::main();
+    reverse_integer::main();
 }

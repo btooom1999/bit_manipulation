@@ -45,7 +45,9 @@ mod neighboring_bitwise_xor;
 mod shortest_subarray_with_or_at_least_k_1;
 mod shortest_subarray_with_or_at_least_k_2;
 mod sum_of_two_integers;
+mod longest_nice_subarray;
+mod find_the_longest_substring_containing_vowels_in_even_counts;
 
 pub fn main() {
-    sum_of_two_integers::main();
+    find_the_longest_substring_containing_vowels_in_even_counts::main();
 }

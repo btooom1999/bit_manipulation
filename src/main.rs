@@ -48,10 +48,12 @@ mod sum_of_two_integers;
 mod longest_nice_subarray;
 mod find_the_longest_substring_containing_vowels_in_even_counts;
 mod minimize_xor;
-mod count_triplets_that_can_form_two_arrays_of_equal_xor;
 mod reverse_integer;
 mod bitwise_and_of_numbers_range;
 mod maximum_product_of_word_lengths;
+mod count_triplets_that_can_form_two_arrays_of_equal_xor;
+mod find_kth_bit_in_nth_binary_string;
+mod minimum_array_end;
 
 pub fn main() {
     maximum_product_of_word_lengths::main();

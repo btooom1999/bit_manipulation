@@ -54,7 +54,8 @@ mod maximum_product_of_word_lengths;
 mod count_triplets_that_can_form_two_arrays_of_equal_xor;
 mod find_kth_bit_in_nth_binary_string;
 mod minimum_array_end;
+mod flip_columns_for_maximum_number_of_equal_rows;
 
 pub fn main() {
-    maximum_product_of_word_lengths::main();
+    flip_columns_for_maximum_number_of_equal_rows::main();
 }

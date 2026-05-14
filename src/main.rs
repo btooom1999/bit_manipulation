@@ -9,6 +9,7 @@ mod missing_number;
 mod find_the_difference;
 mod power_of_two;
 mod power_of_three;
+mod power_of_four;
 mod counting_bits;
 mod shuffle_the_array;
 mod find_the_xor_of_numbers_which_appear_twice;
@@ -59,5 +60,5 @@ mod flip_columns_for_maximum_number_of_equal_rows;
 mod optimal_partition_of_string;
 
 pub fn main() {
-    power_of_three::main();
+    power_of_four::main();
 }

@@ -35,7 +35,6 @@ mod maximum_strong_pair_xor_1;
 mod check_if_bitwise_or_has_trailing_zeroes;
 mod number_of_bit_changes_to_make_two_integers_equal;
 mod construct_the_minimum_bitwise_array_1;
-mod smallest_number_with_all_set_bits;
 mod single_number;
 mod single_number_2;
 mod single_number_3;
@@ -58,7 +57,10 @@ mod find_kth_bit_in_nth_binary_string;
 mod minimum_array_end;
 mod flip_columns_for_maximum_number_of_equal_rows;
 mod optimal_partition_of_string;
+mod bitwise_ors_of_subarrays;
+mod smallest_number_with_all_set_bits;
+mod smallest_subarrays_with_maximum_bitwise_or;
 
 pub fn main() {
-    power_of_four::main();
+    smallest_subarrays_with_maximum_bitwise_or::main();
 }

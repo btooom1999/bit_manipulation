@@ -64,7 +64,8 @@ mod divide_two_integers;
 mod gray_code;
 mod utf_8_validation;
 mod binary_watch;
+mod convert_a_number_to_hexadecimal;
 
 pub fn main() {
-    binary_watch::main();
+    convert_a_number_to_hexadecimal::main();
 }

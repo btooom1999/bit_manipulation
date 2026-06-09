@@ -61,7 +61,8 @@ mod bitwise_ors_of_subarrays;
 mod smallest_number_with_all_set_bits;
 mod smallest_subarrays_with_maximum_bitwise_or;
 mod divide_two_integers;
+mod gray_code;
 
 pub fn main() {
-    divide_two_integers::main();
+    gray_code::main();
 }

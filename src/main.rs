@@ -63,7 +63,8 @@ mod smallest_subarrays_with_maximum_bitwise_or;
 mod divide_two_integers;
 mod gray_code;
 mod utf_8_validation;
+mod binary_watch;
 
 pub fn main() {
-    utf_8_validation::main();
+    binary_watch::main();
 }

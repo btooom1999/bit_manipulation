@@ -66,7 +66,8 @@ mod utf_8_validation;
 mod binary_watch;
 mod convert_a_number_to_hexadecimal;
 mod maximum_xor_of_two_numbers_in_an_array;
+mod total_hamming_distance;
 
 pub fn main() {
-    maximum_xor_of_two_numbers_in_an_array::main();
+    total_hamming_distance::main();
 }

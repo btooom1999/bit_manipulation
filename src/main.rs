@@ -65,7 +65,8 @@ mod gray_code;
 mod utf_8_validation;
 mod binary_watch;
 mod convert_a_number_to_hexadecimal;
+mod maximum_xor_of_two_numbers_in_an_array;
 
 pub fn main() {
-    convert_a_number_to_hexadecimal::main();
+    maximum_xor_of_two_numbers_in_an_array::main();
 }

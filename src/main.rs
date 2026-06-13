@@ -68,7 +68,8 @@ mod convert_a_number_to_hexadecimal;
 mod maximum_xor_of_two_numbers_in_an_array;
 mod total_hamming_distance;
 mod number_of_times_binary_string_is_prefix_aligned;
+mod letter_case_permutation;
 
 pub fn main() {
-    number_of_times_binary_string_is_prefix_aligned::main();
+    letter_case_permutation::main();
 }

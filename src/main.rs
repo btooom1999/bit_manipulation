@@ -70,7 +70,8 @@ mod total_hamming_distance;
 mod number_of_times_binary_string_is_prefix_aligned;
 mod letter_case_permutation;
 mod prison_cells_after_n_days;
+mod binary_string_with_substrings_representing_1_to_n;
 
 pub fn main() {
-    prison_cells_after_n_days::main();
+    binary_string_with_substrings_representing_1_to_n::main();
 }

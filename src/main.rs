@@ -72,7 +72,8 @@ mod letter_case_permutation;
 mod prison_cells_after_n_days;
 mod binary_string_with_substrings_representing_1_to_n;
 mod can_make_palindrome_from_substring;
+mod minimum_flips_to_make_a_or_b_equal_to_c;
 
 pub fn main() {
-    can_make_palindrome_from_substring::main();
+    minimum_flips_to_make_a_or_b_equal_to_c::main();
 }

@@ -71,7 +71,8 @@ mod number_of_times_binary_string_is_prefix_aligned;
 mod letter_case_permutation;
 mod prison_cells_after_n_days;
 mod binary_string_with_substrings_representing_1_to_n;
+mod can_make_palindrome_from_substring;
 
 pub fn main() {
-    binary_string_with_substrings_representing_1_to_n::main();
+    can_make_palindrome_from_substring::main();
 }

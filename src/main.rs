@@ -75,7 +75,8 @@ mod can_make_palindrome_from_substring;
 mod minimum_flips_to_make_a_or_b_equal_to_c;
 mod minimum_number_of_operations_to_make_array_xor_equal_to_k;
 mod cinema_seat_allocation;
+mod number_of_steps_to_reduce_a_number_in_binary_representation_to_one;
 
 pub fn main() {
-    cinema_seat_allocation::main();
+    number_of_steps_to_reduce_a_number_in_binary_representation_to_one::main();
 }

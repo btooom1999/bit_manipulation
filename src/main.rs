@@ -82,7 +82,8 @@ mod minimum_numbers_of_function_calls_to_make_target_array;
 mod concatenation_of_consecutive_binary_numbers;
 mod maximum_possible_number_by_binary_concatenation;
 mod decode_xored_permutation;
+mod find_the_original_array_of_prefix_xor;
 
 pub fn main() {
-    decode_xored_permutation::main();
+    find_the_original_array_of_prefix_xor::main();
 }

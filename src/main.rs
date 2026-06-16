@@ -83,7 +83,8 @@ mod concatenation_of_consecutive_binary_numbers;
 mod maximum_possible_number_by_binary_concatenation;
 mod decode_xored_permutation;
 mod find_the_original_array_of_prefix_xor;
+mod find_kth_largest_xor_coordinate_value;
 
 pub fn main() {
-    find_the_original_array_of_prefix_xor::main();
+    find_kth_largest_xor_coordinate_value::main();
 }

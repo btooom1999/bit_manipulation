@@ -81,7 +81,8 @@ mod check_if_a_string_contains_all_binary_codes_of_size_k;
 mod minimum_numbers_of_function_calls_to_make_target_array;
 mod concatenation_of_consecutive_binary_numbers;
 mod maximum_possible_number_by_binary_concatenation;
+mod decode_xored_permutation;
 
 pub fn main() {
-    maximum_possible_number_by_binary_concatenation::main();
+    decode_xored_permutation::main();
 }

@@ -80,7 +80,8 @@ mod circular_permutation_in_binary_representation;
 mod check_if_a_string_contains_all_binary_codes_of_size_k;
 mod minimum_numbers_of_function_calls_to_make_target_array;
 mod concatenation_of_consecutive_binary_numbers;
+mod maximum_possible_number_by_binary_concatenation;
 
 pub fn main() {
-    concatenation_of_consecutive_binary_numbers::main();
+    maximum_possible_number_by_binary_concatenation::main();
 }

@@ -79,7 +79,8 @@ mod number_of_steps_to_reduce_a_number_in_binary_representation_to_one;
 mod circular_permutation_in_binary_representation;
 mod check_if_a_string_contains_all_binary_codes_of_size_k;
 mod minimum_numbers_of_function_calls_to_make_target_array;
+mod concatenation_of_consecutive_binary_numbers;
 
 pub fn main() {
-    minimum_numbers_of_function_calls_to_make_target_array::main();
+    concatenation_of_consecutive_binary_numbers::main();
 }

@@ -86,7 +86,8 @@ mod find_the_original_array_of_prefix_xor;
 mod find_kth_largest_xor_coordinate_value;
 mod number_of_wonderful_substrings;
 mod maximum_compatibility_score_sum;
+mod minimum_number_of_work_sessions_to_finish_the_tasks;
 
 pub fn main() {
-    maximum_compatibility_score_sum::main();
+    minimum_number_of_work_sessions_to_finish_the_tasks::main();
 }

@@ -85,7 +85,8 @@ mod decode_xored_permutation;
 mod find_the_original_array_of_prefix_xor;
 mod find_kth_largest_xor_coordinate_value;
 mod number_of_wonderful_substrings;
+mod maximum_compatibility_score_sum;
 
 pub fn main() {
-    number_of_wonderful_substrings::main();
+    maximum_compatibility_score_sum::main();
 }

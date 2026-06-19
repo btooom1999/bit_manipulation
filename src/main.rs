@@ -90,7 +90,8 @@ mod minimum_number_of_work_sessions_to_finish_the_tasks;
 mod longest_nice_substring;
 mod maximum_product_of_the_length_of_two_palindromic_subsequences;
 mod count_words_obtained_after_adding_a_letter;
+mod fair_distribution_of_cookies;
 
 pub fn main() {
-    count_words_obtained_after_adding_a_letter::main();
+    fair_distribution_of_cookies::main();
 }

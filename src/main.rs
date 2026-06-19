@@ -89,7 +89,8 @@ mod maximum_compatibility_score_sum;
 mod minimum_number_of_work_sessions_to_finish_the_tasks;
 mod longest_nice_substring;
 mod maximum_product_of_the_length_of_two_palindromic_subsequences;
+mod count_words_obtained_after_adding_a_letter;
 
 pub fn main() {
-    maximum_product_of_the_length_of_two_palindromic_subsequences::main();
+    count_words_obtained_after_adding_a_letter::main();
 }

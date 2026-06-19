@@ -87,7 +87,8 @@ mod find_kth_largest_xor_coordinate_value;
 mod number_of_wonderful_substrings;
 mod maximum_compatibility_score_sum;
 mod minimum_number_of_work_sessions_to_finish_the_tasks;
+mod longest_nice_substring;
 
 pub fn main() {
-    minimum_number_of_work_sessions_to_finish_the_tasks::main();
+    longest_nice_substring::main();
 }

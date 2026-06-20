@@ -1,34 +1,5 @@
-fn maximum_xor(mut nums: Vec<i32>) -> i32 {
-    let mut bits = [0;32];
-    let mut bit = 0;
-    for &num in &nums {
-        bit ^= num;
-
-        for i in 0..32 {
-            if num >> i & 1 == 1 {
-                bits[i] += 1;
-            }
-        }
-    }
-
-    let mut res = bit;
-    let mut n = bits.iter().fold(0, |acc, &num| acc + (num > 0 && num % 2 == 0) as i32);
-    for mut j in 0..1 << n {
-        let mut i = 0;
-        let mut num = 0;
-        while j > 0 {
-            while i < 32 && (bits[i] % 2 == 1 || bits[i] == 0) {
-                i += 1;
-            }
-            num ^= (j & 1) << i;
-            j >>= 1;
-            i += 1;
-        }
-
-        res = res.max(bit ^ num);
-    }
-
-    res
+fn maximum_xor(nums: Vec<i32>) -> i32 {
+    nums.into_iter().fold(0, |acc, num| acc | num)
 }
 
 pub fn main() {

@@ -94,7 +94,8 @@ mod fair_distribution_of_cookies;
 mod maximum_rows_covered_by_columns;
 mod maximum_xor_after_operations;
 mod maximum_xor_product;
+mod maximum_points_in_an_archery_competition;
 
 pub fn main() {
-    minimum_number_of_work_sessions_to_finish_the_tasks::main();
+    maximum_points_in_an_archery_competition::main();
 }

@@ -18,49 +18,27 @@ fn is_valid(s: &[u8], bit: usize) -> bool {
     true
 }
 
-fn dfs(
-    s: &[u8],
-    bits: &mut (usize, usize),
-    i: usize,
-    j: usize,
-    n: usize,
-    result: &mut i32,
-    memo: &mut Vec<Vec<bool>>,
-) {
-    if memo[bits.0][bits.1] {
-        return;
-    }
-
-    if bits.0 != 0 && bits.1 != 0 && is_valid(s, bits.0) && is_valid(s, bits.1) {
-        *result = std::cmp::max(*result, bits.0.count_ones() as i32 * bits.1.count_ones() as i32);
-    }
-
-    if i < n && j < n {
-        for i in i..n {
-            if bits.1 >> i & 1 == 0 {
-                bits.0 ^= 1 << i;
-                dfs(s, bits, i+1, j, n, result, memo);
-                bits.0 ^= 1 << i;
-            }
-        }
-
-        for j in j..n {
-            if bits.0 >> j & 1 == 0 {
-                bits.1 ^= 1 << j;
-                dfs(s, bits, i, j+1, n, result, memo);
-                bits.1 ^= 1 << j;
-            }
-        }
-    }
-
-    memo[bits.0][bits.1] = true;
-}
-
 fn max_product(s: String) -> i32 {
-    let mut result = 1;
+    let mut res = 0;
+    let s = s.as_bytes();
+    let n = 1 << s.len();
+    let mut dp = vec![0; n];
+    for bit in 1..n {
+        if is_valid(s, bit) {
+            dp[bit] = bit.count_ones() as i32;
+        }
+    }
 
-    dfs(s.as_bytes(), &mut (0, 0), 0, 0, s.len(), &mut result, &mut vec![vec![false; 1 << s.len()]; 1 << s.len()]);
-    result
+    let mut res = 0;
+    for i in 1..n {
+        for j in i+1..n {
+            if i & j == 0 {
+                res = res.max(dp[i] * dp[j]);
+            }
+        }
+    }
+
+    res
 }
 
 pub fn main() {

@@ -98,7 +98,8 @@ mod maximum_points_in_an_archery_competition;
 mod range_product_queries_of_powers;
 mod find_xor_beauty_of_array;
 mod apply_bitwise_operations_to_make_strings_equal;
+mod substring_xor_queries;
 
 pub fn main() {
-    apply_bitwise_operations_to_make_strings_equal::main();
+    substring_xor_queries::main();
 }

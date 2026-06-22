@@ -99,7 +99,8 @@ mod range_product_queries_of_powers;
 mod find_xor_beauty_of_array;
 mod apply_bitwise_operations_to_make_strings_equal;
 mod substring_xor_queries;
+mod minimum_impossible_or;
 
 pub fn main() {
-    substring_xor_queries::main();
+    minimum_impossible_or::main();
 }

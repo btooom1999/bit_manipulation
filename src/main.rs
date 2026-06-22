@@ -96,7 +96,8 @@ mod maximum_xor_after_operations;
 mod maximum_xor_product;
 mod maximum_points_in_an_archery_competition;
 mod range_product_queries_of_powers;
+mod find_xor_beauty_of_array;
 
 pub fn main() {
-    range_product_queries_of_powers::main();
+    find_xor_beauty_of_array::main();
 }

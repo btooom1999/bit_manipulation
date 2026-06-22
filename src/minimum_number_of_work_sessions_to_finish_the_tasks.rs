@@ -1,43 +1,39 @@
-fn dfs(
-    tasks: &Vec<i32>,
-    visited: &mut usize,
-    time: usize,
-    session_time: usize,
-    memo: &mut Vec<Vec<i32>>,
-) -> i32 {
-    if *visited == (1 << tasks.len()) - 1 {
-        return 1;
-    }
+fn min_sessions(mut tasks: Vec<i32>, session_time: i32) -> i32 {
+    let n = tasks.len();
+    let full_mask = (1 << n) - 1;
 
-    if memo[*visited][time] != -1 {
-        return memo[*visited][time];
-    }
-
-    let mut res = i32::MAX;
-    for i in 0..tasks.len() {
-        let task = tasks[i] as usize;
-        if *visited >> i & 1 == 0 {
-            *visited ^= 1 << i;
-            if time + task > session_time {
-                res = res.min(1+dfs(tasks, visited, task, session_time, memo));
-            } else {
-                res = res.min(dfs(tasks, visited, time+task, session_time, memo));
+    let mut subset_sum = vec![0; 1 << n];
+    for mask in 0..1<<n {
+        let mut sum = 0;
+        for i in 0..n {
+            if mask & (1 << i) != 0 {
+                sum += tasks[i];
             }
-            *visited ^= 1 << i;
+        }
+        subset_sum[mask] = sum;
+    }
+
+    let mut dp = vec![i32::MAX; 1<<n];
+    dp[0] = 0;
+
+    for mask in 1..1<<n {
+        let mut submask = mask;
+        while submask > 0 {
+            if subset_sum[submask] <= session_time {
+                let prev = mask ^ submask;
+                if dp[prev] != i32::MAX {
+                    dp[mask] = dp[mask].min(dp[prev]+1);
+                }
+            }
+            submask = (submask - 1) & mask;
         }
     }
 
-    memo[*visited][time] = res;
-    res
-}
-
-fn min_sessions(mut tasks: Vec<i32>, session_time: i32) -> i32 {
-    let session_time = session_time as usize;
-    dfs(&tasks, &mut 0, 0, session_time, &mut vec![vec![-1; session_time+1]; 1 << tasks.len()])
+    dp[full_mask]
 }
 
 pub fn main() {
-    let tasks = [9,8,8,4,6].to_vec();
+    let tasks = [9,8,8,4].to_vec();
     let session_time = 14;
     println!("{}", min_sessions(tasks, session_time));
 }

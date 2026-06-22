@@ -96,5 +96,5 @@ mod maximum_xor_after_operations;
 mod maximum_xor_product;
 
 pub fn main() {
-    maximum_xor_product::main();
+    minimum_number_of_work_sessions_to_finish_the_tasks::main();
 }

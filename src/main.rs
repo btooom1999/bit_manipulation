@@ -97,5 +97,5 @@ mod maximum_xor_product;
 mod maximum_points_in_an_archery_competition;
 
 pub fn main() {
-    maximum_points_in_an_archery_competition::main();
+    maximum_rows_covered_by_columns::main();
 }

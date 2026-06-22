@@ -93,7 +93,8 @@ mod count_words_obtained_after_adding_a_letter;
 mod fair_distribution_of_cookies;
 mod maximum_rows_covered_by_columns;
 mod maximum_xor_after_operations;
+mod maximum_xor_product;
 
 pub fn main() {
-    maximum_xor_after_operations::main();
+    maximum_xor_product::main();
 }

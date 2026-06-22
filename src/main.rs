@@ -95,7 +95,8 @@ mod maximum_rows_covered_by_columns;
 mod maximum_xor_after_operations;
 mod maximum_xor_product;
 mod maximum_points_in_an_archery_competition;
+mod range_product_queries_of_powers;
 
 pub fn main() {
-    maximum_rows_covered_by_columns::main();
+    range_product_queries_of_powers::main();
 }

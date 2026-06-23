@@ -101,7 +101,8 @@ mod apply_bitwise_operations_to_make_strings_equal;
 mod substring_xor_queries;
 mod minimum_impossible_or;
 mod minimum_operations_to_reduce_an_integer_to_0;
+mod count_the_number_of_beautiful_subarrays;
 
 pub fn main() {
-    minimum_operations_to_reduce_an_integer_to_0::main();
+    count_the_number_of_beautiful_subarrays::main();
 }

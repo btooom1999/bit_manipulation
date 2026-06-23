@@ -100,7 +100,8 @@ mod find_xor_beauty_of_array;
 mod apply_bitwise_operations_to_make_strings_equal;
 mod substring_xor_queries;
 mod minimum_impossible_or;
+mod minimum_operations_to_reduce_an_integer_to_0;
 
 pub fn main() {
-    minimum_impossible_or::main();
+    minimum_operations_to_reduce_an_integer_to_0::main();
 }

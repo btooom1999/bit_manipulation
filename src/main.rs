@@ -104,8 +104,9 @@ mod minimum_operations_to_reduce_an_integer_to_0;
 mod count_the_number_of_beautiful_subarrays;
 mod find_the_prefix_common_array_of_two_arrays;
 mod maximum_xor;
-mod maximum_strength_of_a_group;
+mod count_the_numbers_of_square_free_subsets;
+mod special_permutations;
 
 pub fn main() {
-    maximum_strength_of_a_group::main();
+    special_permutations::main();
 }

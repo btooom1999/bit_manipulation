@@ -103,7 +103,8 @@ mod minimum_impossible_or;
 mod minimum_operations_to_reduce_an_integer_to_0;
 mod count_the_number_of_beautiful_subarrays;
 mod find_the_prefix_common_array_of_two_arrays;
+mod maximum_xor;
 
 pub fn main() {
-    find_the_prefix_common_array_of_two_arrays::main();
+    maximum_xor::main();
 }

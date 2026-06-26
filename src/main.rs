@@ -106,7 +106,8 @@ mod find_the_prefix_common_array_of_two_arrays;
 mod maximum_xor;
 mod count_the_numbers_of_square_free_subsets;
 mod special_permutations;
+mod minimum_operations_to_make_the_integer_zero;
 
 pub fn main() {
-    special_permutations::main();
+    minimum_operations_to_make_the_integer_zero::main();
 }

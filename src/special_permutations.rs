@@ -1,4 +1,5 @@
 const MOD: i32 = 1_000_000_007;
+
 fn dfs(
     nums: &[i32],
     visited: &mut usize,
